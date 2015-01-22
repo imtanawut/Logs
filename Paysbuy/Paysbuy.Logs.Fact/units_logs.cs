@@ -15,6 +15,7 @@ namespace Paysbuy.Logs.Fact {
             Assert.Equal(LogLevel.info, logs.logsLevel);
         }
 
+        //
         [Fact]
         public void unit_test_constructor_with_parameter() {
             string name =@"testing";
